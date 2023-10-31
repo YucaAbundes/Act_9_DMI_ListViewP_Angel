@@ -1,0 +1,73 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageViewFigura"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/triangulo"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/textViewTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detalle del Triángulo Escaleno"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/editTextBase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese la base del triángulo"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/editTextAltura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese la altura del triángulo"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/textViewPerimetro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perímetro: "
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/textViewArea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Área: "
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver a la Página Principal"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
